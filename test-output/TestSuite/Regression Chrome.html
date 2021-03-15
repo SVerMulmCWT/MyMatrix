@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Regression Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 12 08:36:53 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>283 seconds (283524 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.AirItineraryPageTest.airItineraryPageTest()'><b>airItineraryPageTest</b><br>Test class: com.mymatrix.qa.testcases.AirItineraryPageTest<br>Parameters: Y, AU Prod, W4I0002603C, 1, FY, 1259, H, TGG, SZB, 10Aug2020, 1, Success - 2021/03/11 22:43:05, 1</td>
+<td></td>
+<td>24</td>
+<td>com.mymatrix.qa.testcases.AirItineraryPageTest@5bcea91b</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.ChangeBranchPageTest.changeBranchPageTest()'><b>changeBranchPageTest</b><br>Test class: com.mymatrix.qa.testcases.ChangeBranchPageTest<br>Parameters: Y, AU Prod, z11101000, Z11101,, Success - 2021/03/11 22:40:58, 1</td>
+<td></td>
+<td>7</td>
+<td>com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.ChangeBranchPageTest.changeBranchPageTest()'><b>changeBranchPageTest</b><br>Test class: com.mymatrix.qa.testcases.ChangeBranchPageTest<br>Parameters: Y, AU Prod, a11101000, A11101,, Success - 2021/03/11 22:41:01, 2</td>
+<td></td>
+<td>2</td>
+<td>com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.HotelItineraryPageTest.hotelItineraryPageTest()'><b>hotelItineraryPageTest</b><br>Test class: com.mymatrix.qa.testcases.HotelItineraryPageTest<br>Parameters: Y, AU Prod, W4I0002603C, 1, HLH, 09Aug2020, 10Aug2020, KUL, A05, 2, Success - 2021/03/11 22:43:24, 1</td>
+<td></td>
+<td>21</td>
+<td>com.mymatrix.qa.testcases.HotelItineraryPageTest@5f3a4b84</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, AU IRDB, Successful Login, https://matrixirdbusau.mycwt.com/AusGMTools/, 592399, Matrix154, Y, Success - 2021/03/11 22:40:19, 1</td>
+<td></td>
+<td>14</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@59906517</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, AU Prod, Forgot Password, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:40:23, 2</td>
+<td></td>
+<td>3</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@59906517</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:40:32, 3</td>
+<td></td>
+<td>7</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@59906517</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matr, n, Success - 2021/03/11 22:40:40, 4</td>
+<td></td>
+<td>8</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@59906517</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 999999, Matrix154, n, Success - 2021/03/11 22:40:48, 5</td>
+<td></td>
+<td>7</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@59906517</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, AU Prod, Successful Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matrix154, n, Success - 2021/03/11 22:40:56, 6</td>
+<td></td>
+<td>7</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@59906517</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.QueueCountPageTest.queueCountPageTest()'><b>queueCountPageTest</b><br>Test class: com.mymatrix.qa.testcases.QueueCountPageTest<br>Parameters: n, AU Prod, Queues - All, , , , , , , Success - 2021/03/11 22:44:00, 1</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.QueueCountPageTest@670b40af</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.QueueCountPageTest.queueCountPageTest()'><b>queueCountPageTest</b><br>Test class: com.mymatrix.qa.testcases.QueueCountPageTest<br>Parameters: n, AU Prod, RMA, , , , , , , Success - 2021/03/11 22:44:01, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.QueueCountPageTest@670b40af</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.QueueCountPageTest.queueCountPageTest()'><b>queueCountPageTest</b><br>Test class: com.mymatrix.qa.testcases.QueueCountPageTest<br>Parameters: n, AU Prod, RMI, , , , , , , Success - 2021/03/11 22:44:01, 3</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.QueueCountPageTest@670b40af</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.QueueCountPageTest.queueCountPageTest()'><b>queueCountPageTest</b><br>Test class: com.mymatrix.qa.testcases.QueueCountPageTest<br>Parameters: n, AU Prod, IAR, , , , , , , Success - 2021/03/11 22:44:01, 4</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.QueueCountPageTest@670b40af</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: Y, AU Prod, W4I0002603C, , , , , , , Success - 2021/03/11 22:41:19, 1</td>
+<td></td>
+<td>25</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: Y, AU Prod, , MRCOAL, , , , , , Success - 2021/03/11 22:41:34, 2</td>
+<td></td>
+<td>16</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: Y, AU Prod, , , 3914, HAISSAM MR, AWAD, , , Success - 2021/03/11 22:41:55, 3</td>
+<td></td>
+<td>21</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: Y, AU Prod, , , , , , Ticket, 9475689566, Success - 2021/03/11 22:42:11, 4</td>
+<td></td>
+<td>17</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: Y, AU Prod, , , , , , Ticket, 0512102355, Success - 2021/03/11 22:42:28, 5</td>
+<td></td>
+<td>16</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.TicketPageTest.ticketPageTest()'><b>ticketPageTest</b><br>Test class: com.mymatrix.qa.testcases.TicketPageTest<br>Parameters: Y, AU Prod, V4G0198579C, Ticket, 9475689566, Credit Card, 356.78, Success - 2021/03/11 22:43:42, 1</td>
+<td></td>
+<td>21</td>
+<td>com.mymatrix.qa.testcases.TicketPageTest@27f723</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.TicketPageTest.ticketPageTest()'><b>ticketPageTest</b><br>Test class: com.mymatrix.qa.testcases.TicketPageTest<br>Parameters: Y, AU Prod, OVB0102337C, Ticket, 0512102355, Credit Card, 527.27, Success - 2021/03/11 22:44:00, 2</td>
+<td></td>
+<td>18</td>
+<td>com.mymatrix.qa.testcases.TicketPageTest@27f723</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.TravelerPageTest.travelerPageTest()'><b>travelerPageTest</b><br>Test class: com.mymatrix.qa.testcases.TravelerPageTest<br>Parameters: Y, AU Prod, W4I0002603C, ROZIANA MISS, A MANAN, Success - 2021/03/11 22:42:46, 1</td>
+<td></td>
+<td>18</td>
+<td>com.mymatrix.qa.testcases.TravelerPageTest@12cdcf4</td></tr>
+</table><p>
+</body>
+</html>

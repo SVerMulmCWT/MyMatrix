@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.mymatrix.qa.util.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Regression Chrome(failed)">
+    <parameter name="dataTable" value="\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx"/>
+    <classes>
+      <class name="com.mymatrix.qa.testcases.TicketPageTest">
+        <methods>
+          <include name="ticketPageTest" invocation-numbers="0 1"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.mymatrix.qa.testcases.TicketPageTest -->
+    </classes>
+  </test> <!-- Regression Chrome(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

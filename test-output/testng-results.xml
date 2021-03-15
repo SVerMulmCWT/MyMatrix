@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="36" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="283524" started-at="2021-03-12T08:36:53 CST" finished-at="2021-03-12T08:41:37 CST">
+    <groups>
+    </groups>
+    <test name="Regression Chrome" duration-ms="283524" started-at="2021-03-12T08:36:53 CST" finished-at="2021-03-12T08:41:37 CST">
+      <class name="com.mymatrix.qa.testcases.ChangeBranchPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f]" name="beforeClass" is-config="true" duration-ms="458" started-at="2021-03-12T08:37:58 CST" finished-at="2021-03-12T08:37:58 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="changeBranchPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f]" name="changeBranchPageTest" duration-ms="7487" started-at="2021-03-12T08:37:58 CST" data-provider="inputs" finished-at="2021-03-12T08:38:06 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[z11101000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Z11101,]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:40:58]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeBranchPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f]" name="afterMethod" is-config="true" duration-ms="190" started-at="2021-03-12T08:38:06 CST" finished-at="2021-03-12T08:38:06 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeBranchPageTest status=SUCCESS method=ChangeBranchPageTest.changeBranchPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="changeBranchPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f]" name="changeBranchPageTest" duration-ms="2721" started-at="2021-03-12T08:38:06 CST" data-provider="inputs" finished-at="2021-03-12T08:38:09 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a11101000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A11101,]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:41:01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeBranchPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f]" name="afterMethod" is-config="true" duration-ms="156" started-at="2021-03-12T08:38:09 CST" finished-at="2021-03-12T08:38:09 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeBranchPageTest status=SUCCESS method=ChangeBranchPageTest.changeBranchPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.ChangeBranchPageTest@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mymatrix.qa.testcases.ChangeBranchPageTest -->
+      <class name="com.mymatrix.qa.testcases.AirItineraryPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.AirItineraryPageTest@5bcea91b]" name="beforeClass" is-config="true" duration-ms="169" started-at="2021-03-12T08:40:07 CST" finished-at="2021-03-12T08:40:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="airItineraryPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.AirItineraryPageTest@5bcea91b]" name="airItineraryPageTest" duration-ms="24173" started-at="2021-03-12T08:40:07 CST" data-provider="inputs" finished-at="2021-03-12T08:40:32 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[W4I0002603C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[FY]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1259]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[H]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[TGG]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[SZB]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[10Aug2020]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:43:05]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airItineraryPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.AirItineraryPageTest@5bcea91b]" name="afterMethod" is-config="true" duration-ms="210" started-at="2021-03-12T08:40:32 CST" finished-at="2021-03-12T08:40:32 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=airItineraryPageTest status=SUCCESS method=AirItineraryPageTest.airItineraryPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.AirItineraryPageTest@5bcea91b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mymatrix.qa.testcases.AirItineraryPageTest -->
+      <class name="com.mymatrix.qa.testcases.QueueCountPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="beforeClass" is-config="true" duration-ms="199" started-at="2021-03-12T08:41:35 CST" finished-at="2021-03-12T08:41:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="queueCountPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="queueCountPageTest" duration-ms="3" started-at="2021-03-12T08:41:36 CST" data-provider="inputs" finished-at="2021-03-12T08:41:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Queues - All]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:44:00]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queueCountPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="afterMethod" is-config="true" duration-ms="203" started-at="2021-03-12T08:41:36 CST" finished-at="2021-03-12T08:41:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=queueCountPageTest status=SUCCESS method=QueueCountPageTest.queueCountPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="queueCountPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="queueCountPageTest" duration-ms="138" started-at="2021-03-12T08:41:36 CST" data-provider="inputs" finished-at="2021-03-12T08:41:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RMA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:44:01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queueCountPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="afterMethod" is-config="true" duration-ms="229" started-at="2021-03-12T08:41:36 CST" finished-at="2021-03-12T08:41:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=queueCountPageTest status=SUCCESS method=QueueCountPageTest.queueCountPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="queueCountPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="queueCountPageTest" duration-ms="160" started-at="2021-03-12T08:41:36 CST" data-provider="inputs" finished-at="2021-03-12T08:41:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RMI]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:44:01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queueCountPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="afterMethod" is-config="true" duration-ms="166" started-at="2021-03-12T08:41:36 CST" finished-at="2021-03-12T08:41:37 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=queueCountPageTest status=SUCCESS method=QueueCountPageTest.queueCountPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="queueCountPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="queueCountPageTest" duration-ms="113" started-at="2021-03-12T08:41:37 CST" data-provider="inputs" finished-at="2021-03-12T08:41:37 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IAR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:44:01]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queueCountPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af]" name="afterMethod" is-config="true" duration-ms="154" started-at="2021-03-12T08:41:37 CST" finished-at="2021-03-12T08:41:37 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=queueCountPageTest status=SUCCESS method=QueueCountPageTest.queueCountPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.QueueCountPageTest@670b40af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mymatrix.qa.testcases.QueueCountPageTest -->
+      <class name="com.mymatrix.qa.testcases.TicketPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.TicketPageTest@27f723]" name="beforeClass" is-config="true" duration-ms="174" started-at="2021-03-12T08:40:54 CST" finished-at="2021-03-12T08:40:54 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="ticketPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.TicketPageTest@27f723]" name="ticketPageTest" duration-ms="21544" started-at="2021-03-12T08:40:54 CST" data-provider="inputs" finished-at="2021-03-12T08:41:16 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[V4G0198579C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9475689566]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Credit Card]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[356.78]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:43:42]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.TicketPageTest@27f723]" name="afterMethod" is-config="true" duration-ms="166" started-at="2021-03-12T08:41:16 CST" finished-at="2021-03-12T08:41:16 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ticketPageTest status=SUCCESS method=TicketPageTest.ticketPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.TicketPageTest@27f723] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ticketPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.TicketPageTest@27f723]" name="ticketPageTest" duration-ms="18989" started-at="2021-03-12T08:41:16 CST" data-provider="inputs" finished-at="2021-03-12T08:41:35 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OVB0102337C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0512102355]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Credit Card]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[527.27]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:44:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.TicketPageTest@27f723]" name="afterMethod" is-config="true" duration-ms="145" started-at="2021-03-12T08:41:35 CST" finished-at="2021-03-12T08:41:35 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ticketPageTest status=SUCCESS method=TicketPageTest.ticketPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.TicketPageTest@27f723] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mymatrix.qa.testcases.TicketPageTest -->
+      <class name="com.mymatrix.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="beforeSuite" is-config="true" duration-ms="9891" started-at="2021-03-12T08:36:53 CST" finished-at="2021-03-12T08:37:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="beforeClass" is-config="true" duration-ms="691" started-at="2021-03-12T08:37:03 CST" finished-at="2021-03-12T08:37:04 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="loginTest" duration-ms="14386" started-at="2021-03-12T08:37:06 CST" data-provider="inputs" finished-at="2021-03-12T08:37:20 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU IRDB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful Login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://matrixirdbusau.mycwt.com/AusGMTools/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[592399]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Matrix154]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:40:19]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="afterMethod" is-config="true" duration-ms="1001" started-at="2021-03-12T08:37:20 CST" finished-at="2021-03-12T08:37:21 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="loginTest" duration-ms="3119" started-at="2021-03-12T08:37:21 CST" data-provider="inputs" finished-at="2021-03-12T08:37:25 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Forgot Password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://mymatrixau.mycwt.com/AusMyMatrix/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:40:23]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="afterMethod" is-config="true" duration-ms="357" started-at="2021-03-12T08:37:25 CST" finished-at="2021-03-12T08:37:25 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="loginTest" duration-ms="7835" started-at="2021-03-12T08:37:25 CST" data-provider="inputs" finished-at="2021-03-12T08:37:33 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed Login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://mymatrixau.mycwt.com/AusMyMatrix/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:40:32]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="afterMethod" is-config="true" duration-ms="217" started-at="2021-03-12T08:37:33 CST" finished-at="2021-03-12T08:37:33 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="loginTest" duration-ms="8162" started-at="2021-03-12T08:37:33 CST" data-provider="inputs" finished-at="2021-03-12T08:37:41 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed Login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://mymatrixau.mycwt.com/AusMyMatrix/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[592399]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Matr]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:40:40]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="afterMethod" is-config="true" duration-ms="203" started-at="2021-03-12T08:37:41 CST" finished-at="2021-03-12T08:37:41 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="loginTest" duration-ms="7814" started-at="2021-03-12T08:37:41 CST" data-provider="inputs" finished-at="2021-03-12T08:37:49 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed Login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://mymatrixau.mycwt.com/AusMyMatrix/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[999999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Matrix154]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:40:48]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="afterMethod" is-config="true" duration-ms="449" started-at="2021-03-12T08:37:49 CST" finished-at="2021-03-12T08:37:50 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="loginTest" duration-ms="7852" started-at="2021-03-12T08:37:50 CST" data-provider="inputs" finished-at="2021-03-12T08:37:57 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful Login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://mymatrixau.mycwt.com/AusMyMatrix/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[592399]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Matrix154]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:40:56]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="afterMethod" is-config="true" duration-ms="216" started-at="2021-03-12T08:37:57 CST" finished-at="2021-03-12T08:37:58 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@59906517]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-03-12T08:41:37 CST" finished-at="2021-03-12T08:41:37 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mymatrix.qa.testcases.LoginPageTest -->
+      <class name="com.mymatrix.qa.testcases.SearchClientFilePageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="beforeClass" is-config="true" duration-ms="159" started-at="2021-03-12T08:38:09 CST" finished-at="2021-03-12T08:38:09 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="searchClientFilePageTest" duration-ms="25331" started-at="2021-03-12T08:38:09 CST" data-provider="inputs" finished-at="2021-03-12T08:38:34 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[W4I0002603C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:41:19]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClientFilePageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="afterMethod" is-config="true" duration-ms="219" started-at="2021-03-12T08:38:34 CST" finished-at="2021-03-12T08:38:35 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="searchClientFilePageTest" duration-ms="16474" started-at="2021-03-12T08:38:35 CST" data-provider="inputs" finished-at="2021-03-12T08:38:51 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MRCOAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:41:34]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClientFilePageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="afterMethod" is-config="true" duration-ms="159" started-at="2021-03-12T08:38:51 CST" finished-at="2021-03-12T08:38:51 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="searchClientFilePageTest" duration-ms="21661" started-at="2021-03-12T08:38:51 CST" data-provider="inputs" finished-at="2021-03-12T08:39:13 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3914]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAISSAM MR]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[AWAD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:41:55]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClientFilePageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="afterMethod" is-config="true" duration-ms="193" started-at="2021-03-12T08:39:13 CST" finished-at="2021-03-12T08:39:13 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="searchClientFilePageTest" duration-ms="17968" started-at="2021-03-12T08:39:13 CST" data-provider="inputs" finished-at="2021-03-12T08:39:31 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9475689566]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:42:11]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClientFilePageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="afterMethod" is-config="true" duration-ms="176" started-at="2021-03-12T08:39:31 CST" finished-at="2021-03-12T08:39:31 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="searchClientFilePageTest" duration-ms="16402" started-at="2021-03-12T08:39:31 CST" data-provider="inputs" finished-at="2021-03-12T08:39:48 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0512102355]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:42:28]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClientFilePageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5]" name="afterMethod" is-config="true" duration-ms="186" started-at="2021-03-12T08:39:48 CST" finished-at="2021-03-12T08:39:48 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClientFilePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.SearchClientFilePageTest@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mymatrix.qa.testcases.SearchClientFilePageTest -->
+      <class name="com.mymatrix.qa.testcases.HotelItineraryPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.HotelItineraryPageTest@5f3a4b84]" name="beforeClass" is-config="true" duration-ms="284" started-at="2021-03-12T08:40:32 CST" finished-at="2021-03-12T08:40:32 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="hotelItineraryPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.HotelItineraryPageTest@5f3a4b84]" name="hotelItineraryPageTest" duration-ms="21850" started-at="2021-03-12T08:40:32 CST" data-provider="inputs" finished-at="2021-03-12T08:40:54 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[W4I0002603C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HLH]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[09Aug2020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10Aug2020]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[KUL]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[A05]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:43:24]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelItineraryPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.HotelItineraryPageTest@5f3a4b84]" name="afterMethod" is-config="true" duration-ms="246" started-at="2021-03-12T08:40:54 CST" finished-at="2021-03-12T08:40:54 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hotelItineraryPageTest status=SUCCESS method=HotelItineraryPageTest.hotelItineraryPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.HotelItineraryPageTest@5f3a4b84] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mymatrix.qa.testcases.HotelItineraryPageTest -->
+      <class name="com.mymatrix.qa.testcases.TravelerPageTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.TravelerPageTest@12cdcf4]" name="beforeClass" is-config="true" duration-ms="156" started-at="2021-03-12T08:39:48 CST" finished-at="2021-03-12T08:39:48 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="travelerPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.TravelerPageTest@12cdcf4]" name="travelerPageTest" duration-ms="18831" started-at="2021-03-12T08:39:48 CST" data-provider="inputs" finished-at="2021-03-12T08:40:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AU Prod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[W4I0002603C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ROZIANA MISS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[A MANAN]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Success - 2021/03/11 22:42:46]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelerPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.TravelerPageTest@12cdcf4]" name="afterMethod" is-config="true" duration-ms="162" started-at="2021-03-12T08:40:07 CST" finished-at="2021-03-12T08:40:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=travelerPageTest status=SUCCESS method=TravelerPageTest.travelerPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.TravelerPageTest@12cdcf4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mymatrix.qa.testcases.TravelerPageTest -->
+    </test> <!-- Regression Chrome -->
+  </suite> <!-- TestSuite -->
+</testng-results>

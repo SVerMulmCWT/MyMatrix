@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuite">
+              <span class="suite-name border-passed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuite">
+                    <span>C:\Users\u028sxV\Softwares\MyMatrix\src\main\resources\ProductionPromotion\AU_Prod_Promotion_TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.AirItineraryPageTest" hash-for-method="airItineraryPageTest(Y, AU Prod, W4I0002603C, 1, FY, 1259, H, TGG, SZB, 10Aug2020, 1, Success - 2021/03/11 22:43:05, 1)">airItineraryPageTest(Y, AU Prod, W4I0002603C, 1, FY, 1259, H, TGG, SZB, 10Aug2020, 1, Success - 2021/03/11 22:43:05, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.ChangeBranchPageTest" hash-for-method="changeBranchPageTest(Y, AU Prod, a11101000, A11101,, Success - 2021/03/11 22:41:01, 2)">changeBranchPageTest(Y, AU Prod, a11101000, A11101,, Success - 2021/03/11 22:41:01, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.ChangeBranchPageTest" hash-for-method="changeBranchPageTest(Y, AU Prod, z11101000, Z11101,, Success - 2021/03/11 22:40:58, 1)">changeBranchPageTest(Y, AU Prod, z11101000, Z11101,, Success - 2021/03/11 22:40:58, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.HotelItineraryPageTest" hash-for-method="hotelItineraryPageTest(Y, AU Prod, W4I0002603C, 1, HLH, 09Aug2020, 10Aug2020, KUL, A05, 2, Success - 2021/03/11 22:43:24, 1)">hotelItineraryPageTest(Y, AU Prod, W4I0002603C, 1, HLH, 09Aug2020, 10Aug2020, KUL, A05, 2, Success - 2021/03/11 22:43:24, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.LoginPageTest" hash-for-method="loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:...)">loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.LoginPageTest" hash-for-method="loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matr, n, Success - 2021...)">loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matr, n, Success - 2021...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.LoginPageTest" hash-for-method="loginTest(Y, AU IRDB, Successful Login, https://matrixirdbusau.mycwt.com/AusGMTools/, 592399, Matrix154, Y, Su...)">loginTest(Y, AU IRDB, Successful Login, https://matrixirdbusau.mycwt.com/AusGMTools/, 592399, Matrix154, Y, Su...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.LoginPageTest" hash-for-method="loginTest(Y, AU Prod, Forgot Password, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 ...)">loginTest(Y, AU Prod, Forgot Password, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.LoginPageTest" hash-for-method="loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 999999, Matrix154, n, Success -...)">loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 999999, Matrix154, n, Success -...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.LoginPageTest" hash-for-method="loginTest(Y, AU Prod, Successful Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matrix154, n, Succe...)">loginTest(Y, AU Prod, Successful Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matrix154, n, Succe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.QueueCountPageTest" hash-for-method="queueCountPageTest(n, AU Prod, RMA, , , , , , , Success - 2021/03/11 22:44:01, 2)">queueCountPageTest(n, AU Prod, RMA, , , , , , , Success - 2021/03/11 22:44:01, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.QueueCountPageTest" hash-for-method="queueCountPageTest(n, AU Prod, RMI, , , , , , , Success - 2021/03/11 22:44:01, 3)">queueCountPageTest(n, AU Prod, RMI, , , , , , , Success - 2021/03/11 22:44:01, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.QueueCountPageTest" hash-for-method="queueCountPageTest(n, AU Prod, Queues - All, , , , , , , Success - 2021/03/11 22:44:00, 1)">queueCountPageTest(n, AU Prod, Queues - All, , , , , , , Success - 2021/03/11 22:44:00, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.QueueCountPageTest" hash-for-method="queueCountPageTest(n, AU Prod, IAR, , , , , , , Success - 2021/03/11 22:44:01, 4)">queueCountPageTest(n, AU Prod, IAR, , , , , , , Success - 2021/03/11 22:44:01, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.SearchClientFilePageTest" hash-for-method="searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 0512102355, Success - 2021/03/11 22:42:28, 5)">searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 0512102355, Success - 2021/03/11 22:42:28, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.SearchClientFilePageTest" hash-for-method="searchClientFilePageTest(Y, AU Prod, W4I0002603C, , , , , , , Success - 2021/03/11 22:41:19, 1)">searchClientFilePageTest(Y, AU Prod, W4I0002603C, , , , , , , Success - 2021/03/11 22:41:19, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.SearchClientFilePageTest" hash-for-method="searchClientFilePageTest(Y, AU Prod, , , 3914, HAISSAM MR, AWAD, , , Success - 2021/03/11 22:41:55, 3)">searchClientFilePageTest(Y, AU Prod, , , 3914, HAISSAM MR, AWAD, , , Success - 2021/03/11 22:41:55, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.SearchClientFilePageTest" hash-for-method="searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 9475689566, Success - 2021/03/11 22:42:11, 4)">searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 9475689566, Success - 2021/03/11 22:42:11, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.SearchClientFilePageTest" hash-for-method="searchClientFilePageTest(Y, AU Prod, , MRCOAL, , , , , , Success - 2021/03/11 22:41:34, 2)">searchClientFilePageTest(Y, AU Prod, , MRCOAL, , , , , , Success - 2021/03/11 22:41:34, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.TicketPageTest" hash-for-method="ticketPageTest(Y, AU Prod, OVB0102337C, Ticket, 0512102355, Credit Card, 527.27, Success - 2021/03/11 22:44:00, 2)">ticketPageTest(Y, AU Prod, OVB0102337C, Ticket, 0512102355, Credit Card, 527.27, Success - 2021/03/11 22:44:00, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.TicketPageTest" hash-for-method="ticketPageTest(Y, AU Prod, V4G0198579C, Ticket, 9475689566, Credit Card, 356.78, Success - 2021/03/11 22:43:42, 1)">ticketPageTest(Y, AU Prod, V4G0198579C, Ticket, 9475689566, Credit Card, 356.78, Success - 2021/03/11 22:43:42, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.mymatrix.qa.testcases.TravelerPageTest" hash-for-method="travelerPageTest(Y, AU Prod, W4I0002603C, ROZIANA MISS, A MANAN, Success - 2021/03/11 22:42:46, 1)">travelerPageTest(Y, AU Prod, W4I0002603C, ROZIANA MISS, A MANAN, Success - 2021/03/11 22:42:46, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mymatrix.qa.testcases.TravelerPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="travelerPageTest(Y, AU Prod, W4I0002603C, ROZIANA MISS, A MANAN, Success - 2021/03/11 22:42:46, 1)">
+                  </a> <!-- travelerPageTest(Y, AU Prod, W4I0002603C, ROZIANA MISS, A MANAN, Success - 2021/03/11 22:42:46, 1) -->
+                  <span class="method-name">travelerPageTest</span>
+                  <span class="parameters">(Y, AU Prod, W4I0002603C, ROZIANA MISS, A MANAN, Success - 2021/03/11 22:42:46, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mymatrix.qa.testcases.AirItineraryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="airItineraryPageTest(Y, AU Prod, W4I0002603C, 1, FY, 1259, H, TGG, SZB, 10Aug2020, 1, Success - 2021/03/11 22:43:05, 1)">
+                  </a> <!-- airItineraryPageTest(Y, AU Prod, W4I0002603C, 1, FY, 1259, H, TGG, SZB, 10Aug2020, 1, Success - 2021/03/11 22:43:05, 1) -->
+                  <span class="method-name">airItineraryPageTest</span>
+                  <span class="parameters">(Y, AU Prod, W4I0002603C, 1, FY, 1259, H, TGG, SZB, 10Aug2020, 1, Success - 2021/03/11 22:43:05, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mymatrix.qa.testcases.QueueCountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="queueCountPageTest(n, AU Prod, RMA, , , , , , , Success - 2021/03/11 22:44:01, 2)">
+                  </a> <!-- queueCountPageTest(n, AU Prod, RMA, , , , , , , Success - 2021/03/11 22:44:01, 2) -->
+                  <span class="method-name">queueCountPageTest</span>
+                  <span class="parameters">(n, AU Prod, RMA, , , , , , , Success - 2021/03/11 22:44:01, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queueCountPageTest(n, AU Prod, RMI, , , , , , , Success - 2021/03/11 22:44:01, 3)">
+                  </a> <!-- queueCountPageTest(n, AU Prod, RMI, , , , , , , Success - 2021/03/11 22:44:01, 3) -->
+                  <span class="method-name">queueCountPageTest</span>
+                  <span class="parameters">(n, AU Prod, RMI, , , , , , , Success - 2021/03/11 22:44:01, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queueCountPageTest(n, AU Prod, Queues - All, , , , , , , Success - 2021/03/11 22:44:00, 1)">
+                  </a> <!-- queueCountPageTest(n, AU Prod, Queues - All, , , , , , , Success - 2021/03/11 22:44:00, 1) -->
+                  <span class="method-name">queueCountPageTest</span>
+                  <span class="parameters">(n, AU Prod, Queues - All, , , , , , , Success - 2021/03/11 22:44:00, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queueCountPageTest(n, AU Prod, IAR, , , , , , , Success - 2021/03/11 22:44:01, 4)">
+                  </a> <!-- queueCountPageTest(n, AU Prod, IAR, , , , , , , Success - 2021/03/11 22:44:01, 4) -->
+                  <span class="method-name">queueCountPageTest</span>
+                  <span class="parameters">(n, AU Prod, IAR, , , , , , , Success - 2021/03/11 22:44:01, 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mymatrix.qa.testcases.HotelItineraryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hotelItineraryPageTest(Y, AU Prod, W4I0002603C, 1, HLH, 09Aug2020, 10Aug2020, KUL, A05, 2, Success - 2021/03/11 22:43:24, 1)">
+                  </a> <!-- hotelItineraryPageTest(Y, AU Prod, W4I0002603C, 1, HLH, 09Aug2020, 10Aug2020, KUL, A05, 2, Success - 2021/03/11 22:43:24, 1) -->
+                  <span class="method-name">hotelItineraryPageTest</span>
+                  <span class="parameters">(Y, AU Prod, W4I0002603C, 1, HLH, 09Aug2020, 10Aug2020, KUL, A05, 2, Success - 2021/03/11 22:43:24, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mymatrix.qa.testcases.TicketPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketPageTest(Y, AU Prod, OVB0102337C, Ticket, 0512102355, Credit Card, 527.27, Success - 2021/03/11 22:44:00, 2)">
+                  </a> <!-- ticketPageTest(Y, AU Prod, OVB0102337C, Ticket, 0512102355, Credit Card, 527.27, Success - 2021/03/11 22:44:00, 2) -->
+                  <span class="method-name">ticketPageTest</span>
+                  <span class="parameters">(Y, AU Prod, OVB0102337C, Ticket, 0512102355, Credit Card, 527.27, Success - 2021/03/11 22:44:00, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketPageTest(Y, AU Prod, V4G0198579C, Ticket, 9475689566, Credit Card, 356.78, Success - 2021/03/11 22:43:42, 1)">
+                  </a> <!-- ticketPageTest(Y, AU Prod, V4G0198579C, Ticket, 9475689566, Credit Card, 356.78, Success - 2021/03/11 22:43:42, 1) -->
+                  <span class="method-name">ticketPageTest</span>
+                  <span class="parameters">(Y, AU Prod, V4G0198579C, Ticket, 9475689566, Credit Card, 356.78, Success - 2021/03/11 22:43:42, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mymatrix.qa.testcases.ChangeBranchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeBranchPageTest(Y, AU Prod, a11101000, A11101,, Success - 2021/03/11 22:41:01, 2)">
+                  </a> <!-- changeBranchPageTest(Y, AU Prod, a11101000, A11101,, Success - 2021/03/11 22:41:01, 2) -->
+                  <span class="method-name">changeBranchPageTest</span>
+                  <span class="parameters">(Y, AU Prod, a11101000, A11101,, Success - 2021/03/11 22:41:01, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeBranchPageTest(Y, AU Prod, z11101000, Z11101,, Success - 2021/03/11 22:40:58, 1)">
+                  </a> <!-- changeBranchPageTest(Y, AU Prod, z11101000, Z11101,, Success - 2021/03/11 22:40:58, 1) -->
+                  <span class="method-name">changeBranchPageTest</span>
+                  <span class="parameters">(Y, AU Prod, z11101000, Z11101,, Success - 2021/03/11 22:40:58, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mymatrix.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:...)">
+                  </a> <!-- loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:40:32, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matr, n, Success - 2021...)">
+                  </a> <!-- loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matr, n, Success - 2021...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matr, n, Success - 2021/03/11 22:40:40, 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Y, AU IRDB, Successful Login, https://matrixirdbusau.mycwt.com/AusGMTools/, 592399, Matrix154, Y, Su...)">
+                  </a> <!-- loginTest(Y, AU IRDB, Successful Login, https://matrixirdbusau.mycwt.com/AusGMTools/, 592399, Matrix154, Y, Su...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Y, AU IRDB, Successful Login, https://matrixirdbusau.mycwt.com/AusGMTools/, 592399, Matrix154, Y, Success - 2021/03/11 22:40:19, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Y, AU Prod, Forgot Password, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 ...)">
+                  </a> <!-- loginTest(Y, AU Prod, Forgot Password, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 ...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Y, AU Prod, Forgot Password, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:40:23, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 999999, Matrix154, n, Success -...)">
+                  </a> <!-- loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 999999, Matrix154, n, Success -...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 999999, Matrix154, n, Success - 2021/03/11 22:40:48, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Y, AU Prod, Successful Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matrix154, n, Succe...)">
+                  </a> <!-- loginTest(Y, AU Prod, Successful Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matrix154, n, Succe...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Y, AU Prod, Successful Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matrix154, n, Success - 2021/03/11 22:40:56, 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mymatrix.qa.testcases.SearchClientFilePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 0512102355, Success - 2021/03/11 22:42:28, 5)">
+                  </a> <!-- searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 0512102355, Success - 2021/03/11 22:42:28, 5) -->
+                  <span class="method-name">searchClientFilePageTest</span>
+                  <span class="parameters">(Y, AU Prod, , , , , , Ticket, 0512102355, Success - 2021/03/11 22:42:28, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchClientFilePageTest(Y, AU Prod, W4I0002603C, , , , , , , Success - 2021/03/11 22:41:19, 1)">
+                  </a> <!-- searchClientFilePageTest(Y, AU Prod, W4I0002603C, , , , , , , Success - 2021/03/11 22:41:19, 1) -->
+                  <span class="method-name">searchClientFilePageTest</span>
+                  <span class="parameters">(Y, AU Prod, W4I0002603C, , , , , , , Success - 2021/03/11 22:41:19, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchClientFilePageTest(Y, AU Prod, , , 3914, HAISSAM MR, AWAD, , , Success - 2021/03/11 22:41:55, 3)">
+                  </a> <!-- searchClientFilePageTest(Y, AU Prod, , , 3914, HAISSAM MR, AWAD, , , Success - 2021/03/11 22:41:55, 3) -->
+                  <span class="method-name">searchClientFilePageTest</span>
+                  <span class="parameters">(Y, AU Prod, , , 3914, HAISSAM MR, AWAD, , , Success - 2021/03/11 22:41:55, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 9475689566, Success - 2021/03/11 22:42:11, 4)">
+                  </a> <!-- searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 9475689566, Success - 2021/03/11 22:42:11, 4) -->
+                  <span class="method-name">searchClientFilePageTest</span>
+                  <span class="parameters">(Y, AU Prod, , , , , , Ticket, 9475689566, Success - 2021/03/11 22:42:11, 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchClientFilePageTest(Y, AU Prod, , MRCOAL, , , , , , Success - 2021/03/11 22:41:34, 2)">
+                  </a> <!-- searchClientFilePageTest(Y, AU Prod, , MRCOAL, , , , , , Success - 2021/03/11 22:41:34, 2) -->
+                  <span class="method-name">searchClientFilePageTest</span>
+                  <span class="parameters">(Y, AU Prod, , MRCOAL, , , , , , Success - 2021/03/11 22:41:34, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\u028sxV\Softwares\MyMatrix\src\main\resources\ProductionPromotion\AU_Prod_Promotion_TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.mymatrix.qa.util.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Chrome&quot;&gt;
+    &lt;parameter name=&quot;dataTable&quot; value=&quot;\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mymatrix.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mymatrix.qa.testcases.ChangeBranchPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mymatrix.qa.testcases.SearchClientFilePageTest&quot;/&gt;
+      &lt;class name=&quot;com.mymatrix.qa.testcases.TravelerPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mymatrix.qa.testcases.AirItineraryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mymatrix.qa.testcases.HotelItineraryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mymatrix.qa.testcases.TicketPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mymatrix.qa.testcases.QueueCountPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Chrome --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Chrome (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchClientFilePageTest')
+data.setCell(0, 2, 'com.mymatrix.qa.testcases.SearchClientFilePageTest')
+data.setCell(0, 3, 25331);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'airItineraryPageTest')
+data.setCell(1, 2, 'com.mymatrix.qa.testcases.AirItineraryPageTest')
+data.setCell(1, 3, 24173);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'hotelItineraryPageTest')
+data.setCell(2, 2, 'com.mymatrix.qa.testcases.HotelItineraryPageTest')
+data.setCell(2, 3, 21850);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchClientFilePageTest')
+data.setCell(3, 2, 'com.mymatrix.qa.testcases.SearchClientFilePageTest')
+data.setCell(3, 3, 21661);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ticketPageTest')
+data.setCell(4, 2, 'com.mymatrix.qa.testcases.TicketPageTest')
+data.setCell(4, 3, 21544);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ticketPageTest')
+data.setCell(5, 2, 'com.mymatrix.qa.testcases.TicketPageTest')
+data.setCell(5, 3, 18989);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'travelerPageTest')
+data.setCell(6, 2, 'com.mymatrix.qa.testcases.TravelerPageTest')
+data.setCell(6, 3, 18831);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchClientFilePageTest')
+data.setCell(7, 2, 'com.mymatrix.qa.testcases.SearchClientFilePageTest')
+data.setCell(7, 3, 17968);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchClientFilePageTest')
+data.setCell(8, 2, 'com.mymatrix.qa.testcases.SearchClientFilePageTest')
+data.setCell(8, 3, 16474);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchClientFilePageTest')
+data.setCell(9, 2, 'com.mymatrix.qa.testcases.SearchClientFilePageTest')
+data.setCell(9, 3, 16402);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginTest')
+data.setCell(10, 2, 'com.mymatrix.qa.testcases.LoginPageTest')
+data.setCell(10, 3, 14386);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTest')
+data.setCell(11, 2, 'com.mymatrix.qa.testcases.LoginPageTest')
+data.setCell(11, 3, 8162);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginTest')
+data.setCell(12, 2, 'com.mymatrix.qa.testcases.LoginPageTest')
+data.setCell(12, 3, 7852);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTest')
+data.setCell(13, 2, 'com.mymatrix.qa.testcases.LoginPageTest')
+data.setCell(13, 3, 7835);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginTest')
+data.setCell(14, 2, 'com.mymatrix.qa.testcases.LoginPageTest')
+data.setCell(14, 3, 7814);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'changeBranchPageTest')
+data.setCell(15, 2, 'com.mymatrix.qa.testcases.ChangeBranchPageTest')
+data.setCell(15, 3, 7487);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginTest')
+data.setCell(16, 2, 'com.mymatrix.qa.testcases.LoginPageTest')
+data.setCell(16, 3, 3119);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'changeBranchPageTest')
+data.setCell(17, 2, 'com.mymatrix.qa.testcases.ChangeBranchPageTest')
+data.setCell(17, 3, 2721);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'queueCountPageTest')
+data.setCell(18, 2, 'com.mymatrix.qa.testcases.QueueCountPageTest')
+data.setCell(18, 3, 160);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'queueCountPageTest')
+data.setCell(19, 2, 'com.mymatrix.qa.testcases.QueueCountPageTest')
+data.setCell(19, 3, 138);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'queueCountPageTest')
+data.setCell(20, 2, 'com.mymatrix.qa.testcases.QueueCountPageTest')
+data.setCell(20, 3, 113);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'queueCountPageTest')
+data.setCell(21, 2, 'com.mymatrix.qa.testcases.QueueCountPageTest')
+data.setCell(21, 3, 3);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">14 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mymatrix.qa.testcases.TravelerPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mymatrix.qa.testcases.AirItineraryPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mymatrix.qa.testcases.HotelItineraryPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mymatrix.qa.testcases.QueueCountPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mymatrix.qa.testcases.TicketPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mymatrix.qa.testcases.ChangeBranchPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mymatrix.qa.testcases.SearchClientFilePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx)</span>
+                <span class="method-start">9925 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Y, AU IRDB, Successful Login, https://matrixirdbusau.mycwt.com/AusGMTools/, 592399, Matrix154, Y, Su...)</span>
+                <span class="method-start">12663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">27056 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Y, AU Prod, Forgot Password, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 ...)</span>
+                <span class="method-start">28059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">31181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, , , n, Success - 2021/03/11 22:...)</span>
+                <span class="method-start">31539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">39377 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matr, n, Success - 2021...)</span>
+                <span class="method-start">39595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">47759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Y, AU Prod, Failed Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 999999, Matrix154, n, Success -...)</span>
+                <span class="method-start">47963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">55780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Y, AU Prod, Successful Login, https://mymatrixau.mycwt.com/AusMyMatrix/, 592399, Matrix154, n, Succe...)</span>
+                <span class="method-start">56232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">64086 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.ChangeBranchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx)</span>
+                <span class="method-start">64307 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">changeBranchPageTest(Y, AU Prod, z11101000, Z11101,, Success - 2021/03/11 22:40:58, 1)</span>
+                <span class="method-start">64878 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=changeBranchPageTest status=SUCCESS method=ChangeBranchPageTest.changeBranchPageTes...)</span>
+                <span class="method-start">72367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">changeBranchPageTest(Y, AU Prod, a11101000, A11101,, Success - 2021/03/11 22:41:01, 2)</span>
+                <span class="method-start">72558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=changeBranchPageTest status=SUCCESS method=ChangeBranchPageTest.changeBranchPageTes...)</span>
+                <span class="method-start">75282 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.SearchClientFilePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx)</span>
+                <span class="method-start">75439 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchClientFilePageTest(Y, AU Prod, W4I0002603C, , , , , , , Success - 2021/03/11 22:41:19, 1)</span>
+                <span class="method-start">75720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClien...)</span>
+                <span class="method-start">101053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchClientFilePageTest(Y, AU Prod, , MRCOAL, , , , , , Success - 2021/03/11 22:41:34, 2)</span>
+                <span class="method-start">101272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClien...)</span>
+                <span class="method-start">117748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchClientFilePageTest(Y, AU Prod, , , 3914, HAISSAM MR, AWAD, , , Success - 2021/03/11 22:41:55, 3)</span>
+                <span class="method-start">117908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClien...)</span>
+                <span class="method-start">139571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 9475689566, Success - 2021/03/11 22:42:11, 4)</span>
+                <span class="method-start">139764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClien...)</span>
+                <span class="method-start">157733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchClientFilePageTest(Y, AU Prod, , , , , , Ticket, 0512102355, Success - 2021/03/11 22:42:28, 5)</span>
+                <span class="method-start">157909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchClientFilePageTest status=SUCCESS method=SearchClientFilePageTest.searchClien...)</span>
+                <span class="method-start">174313 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.TravelerPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx)</span>
+                <span class="method-start">174499 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">travelerPageTest(Y, AU Prod, W4I0002603C, ROZIANA MISS, A MANAN, Success - 2021/03/11 22:42:46, 1)</span>
+                <span class="method-start">174752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=travelerPageTest status=SUCCESS method=TravelerPageTest.travelerPageTest(java.lang....)</span>
+                <span class="method-start">193585 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.AirItineraryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx)</span>
+                <span class="method-start">193747 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">airItineraryPageTest(Y, AU Prod, W4I0002603C, 1, FY, 1259, H, TGG, SZB, 10Aug2020, 1, Success - 2021/03/11 22:43:05, 1)</span>
+                <span class="method-start">194025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=airItineraryPageTest status=SUCCESS method=AirItineraryPageTest.airItineraryPageTes...)</span>
+                <span class="method-start">218200 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.HotelItineraryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx)</span>
+                <span class="method-start">218411 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">hotelItineraryPageTest(Y, AU Prod, W4I0002603C, 1, HLH, 09Aug2020, 10Aug2020, KUL, A05, 2, Success - 2021/03/11 22:43:24, 1)</span>
+                <span class="method-start">218801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=hotelItineraryPageTest status=SUCCESS method=HotelItineraryPageTest.hotelItineraryP...)</span>
+                <span class="method-start">240653 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.TicketPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx)</span>
+                <span class="method-start">240900 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ticketPageTest(Y, AU Prod, V4G0198579C, Ticket, 9475689566, Credit Card, 356.78, Success - 2021/03/11 22:43:42, 1)</span>
+                <span class="method-start">241171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ticketPageTest status=SUCCESS method=TicketPageTest.ticketPageTest(java.lang.String...)</span>
+                <span class="method-start">262716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ticketPageTest(Y, AU Prod, OVB0102337C, Ticket, 0512102355, Credit Card, 527.27, Success - 2021/03/11 22:44:00, 2)</span>
+                <span class="method-start">262883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ticketPageTest status=SUCCESS method=TicketPageTest.ticketPageTest(java.lang.String...)</span>
+                <span class="method-start">281874 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.QueueCountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(\src\main\java\com\mymatrix\qa\testdata\AU Production Promotion.xlsx)</span>
+                <span class="method-start">282021 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">queueCountPageTest(n, AU Prod, Queues - All, , , , , , , Success - 2021/03/11 22:44:00, 1)</span>
+                <span class="method-start">282337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=queueCountPageTest status=SUCCESS method=QueueCountPageTest.queueCountPageTest(java...)</span>
+                <span class="method-start">282341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">queueCountPageTest(n, AU Prod, RMA, , , , , , , Success - 2021/03/11 22:44:01, 2)</span>
+                <span class="method-start">282544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=queueCountPageTest status=SUCCESS method=QueueCountPageTest.queueCountPageTest(java...)</span>
+                <span class="method-start">282684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">queueCountPageTest(n, AU Prod, RMI, , , , , , , Success - 2021/03/11 22:44:01, 3)</span>
+                <span class="method-start">282913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=queueCountPageTest status=SUCCESS method=QueueCountPageTest.queueCountPageTest(java...)</span>
+                <span class="method-start">283074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">queueCountPageTest(n, AU Prod, IAR, , , , , , , Success - 2021/03/11 22:44:01, 4)</span>
+                <span class="method-start">283240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=queueCountPageTest status=SUCCESS method=QueueCountPageTest.queueCountPageTest(java...)</span>
+                <span class="method-start">283355 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mymatrix.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">283581 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
